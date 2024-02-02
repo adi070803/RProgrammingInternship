@@ -21,10 +21,13 @@ This task can be seen executed from lines 57-108. This also includes creating su
 #4: Create a model using the random forest algorithm:
 
 This task is visible in lines 110-114. Pasting the output directly belowfrom R code:
+
 Call:
+
  randomForest(formula = total_count ~ ., data = train_encoded_attributes,      importance = TRUE, ntree = 200) 
                Type of random forest: regression
                      Number of trees: 200
+                     
 No. of variables tried at each split: 6
 
           Mean of squared residuals: 509129.4
@@ -33,6 +36,7 @@ No. of variables tried at each split: 6
 #5: Predict the performance of the model on the test dataset:
 
 This task is visble in lines 116-119. Pasting the output directly below from R code:
+
 1        2        3        4        5 
 1838.933 1345.016 1506.397 1349.560 1705.230 
 
